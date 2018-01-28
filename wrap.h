@@ -32,4 +32,4 @@ static ssize_t MyRead(int fd, char *ptr);
 size_t ReadLine(int fd, void *vptr, ssize_t max_len);
 
 
-#endif
+#endif /* _WRAP_H_ */
