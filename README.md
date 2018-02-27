@@ -6,4 +6,3 @@
    - select
    - poll
    - epoll
-
