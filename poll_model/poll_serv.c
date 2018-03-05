@@ -38,7 +38,7 @@ int main() {
     for (int i = 1; i < OPEN_MAX; ++i) {
         client[i].fd = -1;
     }
-    int maxi = -1;
+    int maxi = 0;
 
     while (1) {
         int nready = poll(client, maxi + 1, -1);  // block

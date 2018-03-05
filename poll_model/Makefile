@@ -6,6 +6,7 @@ serv:poll_serv.c ../wrap.c
 cli:cli.c ../wrap.c
 	gcc -o $@ $^ -I../ -Wall -g
 
+
 .PHONY:
 clean:
-	-rm -rf serv cli
+	-rm -rf serv cli test_serv
